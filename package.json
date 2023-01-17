@@ -1,0 +1,27 @@
+{
+  "name": "api_hw",
+  "version": "1.0.0",
+  "description": "hw",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Kapsky/JSCourse.git"
+  },
+  "keywords": [
+    "hw"
+  ],
+  "author": "ik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Kapsky/JSCourse/issues"
+  },
+  "homepage": "https://github.com/Igor-Kapsky/JSCourse#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chai": "^4.3.7"
+  }
+}
