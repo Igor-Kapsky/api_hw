@@ -1,4 +1,15 @@
 {
+    "idsForTests" : {
+    "test2": 99,
+    "test3": 150,
+    "test6": 5
+    },
+
+    "lengthForTextGenerator" : {
+      "title": 10,
+      "body": 10
+      },
+
     "existingPost" : {
         "userId": 10,
         "id": 99
