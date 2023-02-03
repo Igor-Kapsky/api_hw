@@ -1,9 +1,13 @@
+import SimpleLogger from 'simple-node-logger';
+
 export default class Printer {
-    printInfo(message) {
-        console.log(`[INFO] ${message} [INFO]`);
+    static printInfo(message) {
+        const logger = new SimpleLogger.createSimpleLogger();
+        logger.info(`${message}`);
     }
 
-    printError(message) {
-        console.log(`[ERROR] ${message} [ERROR]`);
+    static printError(message) {
+        const logger = new SimpleLogger.createSimpleLogger();
+        logger.error(`${message}`);
     }
 }
